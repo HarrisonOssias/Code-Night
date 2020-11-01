@@ -12,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <div>HIII</div>
         <Calendar
           onChange={this.onChange}
           value={this.state.date}
